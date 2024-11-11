@@ -62,7 +62,7 @@ public class Main {
             Matcher m1 = tPattern.matcher(content);
             while (m1.find()) {
                 String foundling = m1.group(1);
-                if (foundling.length() < 3) {
+                if (foundling.length() < 2) {
                     continue;
                 }
                 keys.add(foundling);
